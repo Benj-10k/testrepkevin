@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="js/script.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
 
+<!-- Navigation Bar -->
+<nav>
+    <a href="index.html">About Me</a>
+    <a href="interests.html">Technical Interests</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+    <button onclick="toggleDarkMode()">Dark Mode</button>
+</nav>
+
 <section id="portfolio">
     <h1>My Portfolio</h1>
-
-    <div>
-        <h2>Project 1</h2>
-        <p>A brief description of Project 1.</p>
-        <button onclick="location.href='project1.html'">View Details</button>
-    </div>
-
-    <div>
-        <h2>Project 2</h2>
-        <p>A brief description of Project 2.</p>
-        <button onclick="location.href='project2.html'">View Details</button>
-    </div>
+    <p>Here are some projects I've worked on:</p>
+    <button onclick="alert('Project 1 Details')">Project 1</button>
+    <button onclick="alert('Project 2 Details')">Project 2</button>
 </section>
 
 <footer>
